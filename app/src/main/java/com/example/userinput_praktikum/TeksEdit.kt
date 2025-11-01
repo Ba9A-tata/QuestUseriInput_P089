@@ -34,6 +34,9 @@ fun FormPendaftaran(modifier: Modifier) {
                     fontWeight = FontWeight.Bold
                 )
             },
+                colors = TopAppBarDefaults.topAppBarColors(
+                    containerColor = Color(0xFF7E57C2)
+                )
             )
         }
     )
