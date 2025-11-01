@@ -19,5 +19,5 @@ fun FormPendaftaran(modifier: Modifier) {
     var alamat by remember { mutableStateOf("") }
     var jenisKelamin by remember { mutableStateOf("") }
     var status by remember { mutableStateOf("") }
-
+    val genderOptions = listOf("Laki-laki", "Perempuan")
 }
