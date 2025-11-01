@@ -17,5 +17,6 @@ import androidx.compose.ui.unit.sp
 fun FormPendaftaran(modifier: Modifier) {
     var nama by remember { mutableStateOf("") }
     var alamat by remember { mutableStateOf("") }
+    var jenisKelamin by remember { mutableStateOf("") }
 
 }
