@@ -99,4 +99,6 @@ fun FormPendaftaran(modifier: Modifier) {
                             Text(text = gender)
                         }
                     }
+
+                    Spacer(modifier = Modifier.height(8.dp))
 }
