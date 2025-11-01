@@ -128,4 +128,7 @@ fun FormPendaftaran(modifier: Modifier) {
                             Text(text = s)
                         }
                     }
+
+                    Spacer(modifier = Modifier.height(8.dp))
+
 }
