@@ -140,4 +140,6 @@ fun FormPendaftaran(modifier: Modifier) {
                         modifier = Modifier.fillMaxWidth()
                     )
 
+                    Spacer(modifier = Modifier.height(24.dp))
+
 }
