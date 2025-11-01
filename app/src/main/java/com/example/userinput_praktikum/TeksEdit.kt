@@ -154,5 +154,5 @@ fun FormPendaftaran(modifier: Modifier) {
                 }
             }
         }
-
+    }
 }
