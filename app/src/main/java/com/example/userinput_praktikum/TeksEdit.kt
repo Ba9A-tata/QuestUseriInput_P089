@@ -39,5 +39,35 @@ fun FormPendaftaran(modifier: Modifier) {
                 )
             )
         }
-    )
+    ) { innerPadding ->
+        Column(
+            modifier = Modifier
+                .fillMaxSize()
+                .background(Color(0xFFF3E5F5))
+                .padding(innerPadding)
+                .padding(16.dp),
+            horizontalAlignment = Alignment.CenterHorizontally
+        ) {
+            Card(
+                modifier = Modifier
+                    .fillMaxWidth(0.95f)
+                    .padding(top = 20.dp),
+                colors = CardDefaults.cardColors(containerColor = Color.White),
+                elevation = CardDefaults.cardElevation(defaultElevation = 6.dp),
+                shape = MaterialTheme.shapes.medium
+            ) {
+                Column(
+                    modifier = Modifier
+                        .padding(20.dp)
+                        .fillMaxWidth(),
+                    horizontalAlignment = Alignment.CenterHorizontally
+                ) {
+                    OutlinedTextField(
+                        value = nama,
+                        onValueChange = { nama = it },
+                        label = { Text("Nama Lengkap") },
+                        placeholder = { Text("Isian nama lengkap") },
+                        singleLine = true,
+                        modifier = Modifier.fillMaxWidth()
+                    )
 }
