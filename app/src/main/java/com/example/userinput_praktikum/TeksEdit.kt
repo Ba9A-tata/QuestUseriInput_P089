@@ -22,4 +22,19 @@ fun FormPendaftaran(modifier: Modifier) {
     val genderOptions = listOf("Laki-laki", "Perempuan")
 
     val statusOptions = listOf("Janda", "Lajang", "Duda")
+
+    Scaffold(
+        topBar = {
+            TopAppBar(
+            title = {
+                Text(
+                text = "Formulir Pendaftaran",
+                    color = Color.White,
+                    fontSize = 20.sp,
+                    fontWeight = FontWeight.Bold
+                )
+            },
+            )
+        }
+    )
 }
