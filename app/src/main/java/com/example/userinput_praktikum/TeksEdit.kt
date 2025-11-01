@@ -142,4 +142,17 @@ fun FormPendaftaran(modifier: Modifier) {
 
                     Spacer(modifier = Modifier.height(24.dp))
 
+                    Button(
+                        onClick = { },
+                        colors = ButtonDefaults.buttonColors(containerColor = Color(0xFF7E57C2)),
+                        modifier = Modifier
+                            .fillMaxWidth()
+                            .height(40.dp)
+                    ) {
+                        Text(text = "Submit", color = Color.White, fontSize = 16.sp)
+                    }
+                }
+            }
+        }
+
 }
